@@ -1,0 +1,197 @@
+Confirm Your Signup
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your OTP Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 480px;
+            background: #FFF;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            border: 2px solid #5E8573; /* Outlined card */
+        }
+
+        h2 {
+            font-family: 'Chewy', cursive;
+            color: #D0BCFF;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .otp-box {
+            background: transparent;
+            color: #333;
+            padding: 14px;
+            font-size: 24px; /* Medium text size */
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            display: inline-block;
+            border-radius: 12px;
+            letter-spacing: 4px;
+            width: auto;
+            box-sizing: border-box;
+            margin: 20px auto;
+            border: 2px solid #5E8573; /* Border for OTP box */
+        }
+
+        .otp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #757575;
+        }
+
+        .hidden-input {
+            width: 1px;
+            height: 1px;
+            border: none;
+            background: transparent;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your OTP Code</h2>
+        <p>Use this One-Time Password (OTP) to verify your login. It is valid for 10 minutes.</p>
+        
+        <!-- Hidden OTP Input (No Off-Page Positioning) -->
+        <input type="text" value="{{ .Token }}" id="otp-input" class="hidden-input">
+        
+        <div class="otp-container">
+            <div class="otp-box">{{ .Token }}</div>
+        </div>
+        
+        <p class="footer">Need help? Contact <a href="mailto:support@yourapp.com">support@yourapp.com</a></p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+Reset Your Password
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your OTP Code</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #F5F5F5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 480px;
+            background: #FFF;
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            border: 2px solid #5E8573; /* Outlined card */
+        }
+
+        h2 {
+            font-family: 'Chewy', cursive;
+            color: #FFAB91; /* Color matching with Material design */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .otp-box {
+            background: transparent;
+            color: #333;
+            padding: 14px;
+            font-size: 24px; /* Medium text size */
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            display: inline-block;
+            border-radius: 12px;
+            letter-spacing: 4px;
+            width: auto;
+            box-sizing: border-box;
+            margin: 20px auto;
+            border: 2px solid #5E8573; /* Border for OTP box */
+        }
+
+        .otp-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #757575;
+        }
+
+        .hidden-input {
+            width: 1px;
+            height: 1px;
+            border: none;
+            background: transparent;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Your OTP Code for Password Reset</h2>
+        <p>Use the OTP below to reset your password. It is valid for 10 minutes.</p>
+        
+        <!-- Hidden OTP Input (No Off-Page Positioning) -->
+        <input type="text" value="{{ .Token }}" id="otp-input" class="hidden-input">
+        
+        <div class="otp-container">
+            <div class="otp-box">{{ .Token }}</div>
+        </div>
+        
+        <p class="footer">Need help? Contact <a href="mailto:support@yourapp.com">support@yourapp.com</a></p>
+    </div>
+</body>
+</html>
+
