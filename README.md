@@ -1,6 +1,6 @@
 # ✨ Fritemp — Premium Template Store App In Sketchware Pro
 
-![Thumbnail](https://your-thumbnail-image-link.com)  
+![Thumbnail]([https://your-thumbnail-image-link.com](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/blob/main/image.png?raw=true)  
 [![Watch Demo](https://img.shields.io/badge/Demo-Video-red?style=for-the-badge&logo=youtube)](https://your-demo-video-link.com)
 
 **Fritemp** is a full-featured template marketplace app built using **Sketchware Pro**. It allows users to browse, preview, and download free or premium templates (CapCut, Premiere Pro, Photoshop, etc.). The app uses modern Material 3 UI, Firebase notifications, Supabase (auth/storage/db), Cloudinary (media), and supports Android 7–15 (API 24–35).
