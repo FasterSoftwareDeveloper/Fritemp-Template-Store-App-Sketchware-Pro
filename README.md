@@ -1,6 +1,6 @@
 # ✨ Fritemp — Premium Template Store App In Sketchware Pro
 
-![Thumbnail]([https://your-thumbnail-image-link.com](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/blob/main/image.png?raw=true)  
+[![Thumbnail](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/blob/main/image.png?raw=true)](https://your-demo-video-link.com)
 [![Watch Demo](https://img.shields.io/badge/Demo-Video-red?style=for-the-badge&logo=youtube)](https://your-demo-video-link.com)
 
 **Fritemp** is a full-featured template marketplace app built using **Sketchware Pro**. It allows users to browse, preview, and download free or premium templates (CapCut, Premiere Pro, Photoshop, etc.). The app uses modern Material 3 UI, Firebase notifications, Supabase (auth/storage/db), Cloudinary (media), and supports Android 7–15 (API 24–35).
@@ -32,7 +32,7 @@
 - ⬇️ **Download System** with Notifications + Folder Picker  
 - 🛰️ **Device ID & Country Detection** (Play Store Safe)  
 - ✨ **Modern Splash Screen API**  
-- 🖼️ **Pick View Support** (Image/File)  
+- 🖼️ **Peek View Support** (Image/File)  
 - 🧊 **Blurred Bottom Navigation Bar**  
 - 🌀 **Smooth Over-Scroll**  
 - 🖼️ **Image Slider / Gallery Viewer**  
@@ -44,7 +44,9 @@
   - 🚫 Ban / ✅ Unban User  
 - ⚠️ **App Update** & 🛠️ **Maintenance Mode**  
 - ✅ **Android 7 to 15 Supported (API 24–35)**  
-- ⚡ Fast, Responsive, Clean UI  
+- ⚡ Fast, Responsive, Clean UI
+-  📱 Support ViewPager2
+- 🌐 Handle Real-Time Internet Connection
 
 ### Admin Panel Features
 - 🎛️ **Manage Users** (Create, Edit, Delete, Ban, Unban)  
@@ -129,8 +131,8 @@ Every donation helps us continue to improve and grow. Thank you for your generos
 
 Developed by **Faster Software Developer**  
 GitHub: [@FasterSoftwareDeveloper](https://github.com/FasterSoftwareDeveloper)  
-Telegram Channel: [@](https://t.me/TakbirHassan)  
-YouTube Channel: [@FasterSoftwareDeveloper]([https://www.fiverr.com/takbirh]([https://youtube.com/@fastersoftwaredeveloper](https://youtube.com/@fastersoftwaredeveloper)  
+📢 **Telegram Channel**: [@fastersoftwaredeveloper](https://t.me/fastersoftwaredeveloper)  
+🎬 **YouTube Channel**: [@FasterSoftwareDeveloper](https://youtube.com/@fastersoftwaredeveloper)
 
 ---
 
