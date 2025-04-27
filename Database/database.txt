@@ -1,0 +1,160 @@
+CREATE TABLE IF NOT EXISTS "public"."FasterPanel" (
+  "id" text PRIMARY KEY,
+  "username" text NOT NULL,
+  "password" text NOT NULL
+);
+
+ALTER TABLE "public"."FasterPanel"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Read-Only Access"
+ON "public"."FasterPanel"
+FOR SELECT
+TO anon
+USING (true);
+
+INSERT INTO "public"."FasterPanel" ("id", "username", "password")
+VALUES 
+  ('1', 'FasterPanelV2', 'FasterPanelV2');
+
+CREATE TABLE IF NOT EXISTS "public"."allaccountdata" (
+  "uid" text PRIMARY KEY,
+  "email" text,
+  "password" text,
+  "name" text,
+  "social media" text,
+  "question1" text,
+  "question2" text,
+  "device id" text,
+  "country" text,
+  "register date" text,
+  "logo url" text,
+  "account type" text,
+  "risk type" text,
+  "deposit balance" text,
+  "mobile number" text,
+  "expired date" text,
+  "notification token" text,
+  "imageDeleteToken" text
+);
+
+ALTER TABLE "public"."allaccountdata"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."allaccountdata"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);
+
+CREATE TABLE IF NOT EXISTS "public"."app_mode" (
+  "id" text PRIMARY KEY,
+  "maintenance_mode" text,
+  "update_mode" text,
+  "app_version" text,
+  "about" text,
+  "app_link" text
+);
+
+ALTER TABLE "public"."app_mode"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."app_mode"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);
+
+INSERT INTO "public"."app_mode" ("id", "maintenance_mode", "update_mode", "app_version", "about", "app_link")
+VALUES 
+  ('1', 'off', 'off', '1.1', 'testing what''s new', 'https://yourapp.com');
+
+CREATE TABLE IF NOT EXISTS "public"."history" (
+  "key" text PRIMARY KEY,
+  "money" text,
+  "status" text,
+  "user uid" text,
+  "date" text,
+  "id" text
+);
+
+ALTER TABLE "public"."history"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."history"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);
+
+CREATE TABLE IF NOT EXISTS "public"."slider" (
+  "key" text PRIMARY KEY,
+  "image url" text,
+  "image delete token" text,
+  "title" text,
+  "description" text,
+  "link" text
+);
+
+ALTER TABLE "public"."slider"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."slider"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);
+
+CREATE TABLE IF NOT EXISTS "public"."template history" (
+  "purchase key" text PRIMARY KEY,
+  "massage" text,
+  "file type" text,
+  "status" text,
+  "date" text,
+  "uid" text
+);
+
+ALTER TABLE "public"."template history"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."template history"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);
+
+CREATE TABLE IF NOT EXISTS "public"."templates" (
+  "main key" text PRIMARY KEY,
+  "title" text,
+  "description" text,
+  "category" text,
+  "media type" text,
+  "template type" text,
+  "ad type" text,
+  "price" text,
+  "image" text,
+  "video" text,
+  "template file type" text,
+  "template file" text,
+  "image delete token" text,
+  "video delete token" text,
+  "gets" text,
+  "direct download link" text,
+  "item category" text,
+  "duration" text
+);
+
+ALTER TABLE "public"."templates"
+ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anon Full Access"
+ON "public"."templates"
+FOR ALL
+TO anon
+USING (true)
+WITH CHECK (true);

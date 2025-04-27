@@ -1,0 +1,30 @@
+[
+  {
+    "data": [
+      "View",
+      "ViewGroup",
+      "LinearLayout",
+      "RelativeLayout",
+      "ScrollView",
+      "HorizontalScrollView",
+      "TextView",
+      "EditText",
+      "Button",
+      "RadioButton",
+      "CheckBox",
+      "Switch",
+      "ImageView",
+      "SeekBar",
+      "ListView",
+      "Spinner",
+      "WebView",
+      "MapView",
+      "ProgressBar",
+      "TextInputLayout",
+      "MaterialButton",
+      "MaterialCardView"
+    ],
+    "name": "typeview",
+    "title": "Select typeview:"
+  }
+]
