@@ -81,7 +81,40 @@
 - 🖼️ **Glide** (v4.15.1)  
 - 🎨 **Material Components** (v1.12.0)  
 - 🌐 **OkHttp3**  
-- 🎨 **Transition** (v1.4.1)  
+- 🎨 **Transition** (v1.4.1)
+
+## Supported Template Types
+
+| Extension    | Type / Software               |
+|--------------|--------------------------------|
+| 🎨 `.psd`     | Photoshop Document             |
+| ✂️ `.capcut`  | CapCut Template                |
+| ✨ `.aep`      | After Effects Project          |
+| 🎬 `.prproj`  | Premiere Pro Project           |
+| 🖌️ `.cpt`     | Corel Photo-Paint File         |
+| 🖍️ `.fig`     | Figma Design File              |
+| 📸 `.lrtemplate` | Lightroom Preset           |
+| 🖼️ `.pix`     | Pixen Image File               |
+| 🧊 `.blend`   | Blender Project                |
+| 🎞️ `.drp`     | DaVinci Resolve Project        |
+| 🗂️ `.xd`      | Adobe XD Project               |
+| 📰 `.indd`    | InDesign Document              |
+| 🖋️ `.ai`      | Adobe Illustrator File         |
+| 🎥 `.veg`     | Sony Vegas Project             |
+| 📝 `.sketch`  | Sketch Project File            |
+| 🧵 `.afdesign`| Affinity Designer File         |
+| ⚙️ `.xml`      | XML Layout/Config              |
+| 🧩 `.cep`     | Adobe CEP Extension            |
+| 📦 `.zip`     | Compressed Archive             |
+| 📁 `.proj`    | Generic Project File           |
+| 🗜️ `.pea`     | PEA Archive File               |
+| 🖍️ `.cdr`     | CorelDRAW Document             |
+| 📄 `.template`| Generic Template File          |
+| 🎞️ `.motion` | Apple Motion Project           |
+| 🎬 `.amproj`  | Animotica Project              |
+| 🎥 `.movavi`  | Movavi Project                 |
+| 🎨 `.vsco`    | VSCO Preset File               |
+
 
 ### **Cloud Setup Needed**
 - [Supabase](https://supabase.com): Auth, Storage (ZIPs), Realtime  
@@ -93,7 +126,7 @@
 ## ⚡ Getting Started
 
 1. **Download Sketchware Pro**  
-   [Join Telegram](https://t.me/sketchware_pro) or [visit GitHub releases](https://github.com/sketchware-pro)
+   [Join Telegram](https://t.me/sketchwarepro/257833) or [visit GitHub]([https://github.com/sketchware-pro](https://nightly.link/Sketchware-Pro/Sketchware-Pro/workflows/android/main/apk-release))
 
 2. **Import the Project**  
    - Use `.swb` backup  
