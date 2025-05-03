@@ -7,6 +7,16 @@
 
 ---
 
+# 🚀 Fritemp Android Studio Source Code is Now Available!
+
+**Get the full source code for Fritemp, the template store app — built with Material 3, Sketchware Pro, and Android Studio!**
+
+👉 [**Click here to view the Android Studio branch**](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/tree/Android-studio)
+
+**Don't forget to ⭐ the repo if you find it helpful!**
+
+---
+
 ## 🚀 Features
 
 ### User Panel Features
