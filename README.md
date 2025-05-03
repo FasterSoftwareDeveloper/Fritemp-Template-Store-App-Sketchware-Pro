@@ -1,22 +1,11 @@
-# ✨ Fritemp — Premium Template Store App In Sketchware Pro
+# ✨ Fritemp — Premium Template Store App In Android Studio
 
 [![Thumbnail](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/blob/main/image.png?raw=true)](https://youtu.be/7QJq_xDYrZw?si=og5CG5VSL5Ju9Arv)
 [![Watch Demo](https://img.shields.io/badge/Demo-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/7QJq_xDYrZw?si=og5CG5VSL5Ju9Arv)
 
-**Fritemp** is a full-featured template marketplace app built using **Sketchware Pro**. It allows users to browse, preview, and download free or premium templates (CapCut, Premiere Pro, Photoshop, etc.). The app uses modern Material 3 UI, Firebase notifications, Supabase (auth/storage/db), Cloudinary (media), and supports Android 7–15 (API 24–35).
+**Fritemp** is a full-featured template marketplace app built using **Android Studio**. It allows users to browse, preview, and download free or premium templates (CapCut, Premiere Pro, Photoshop, etc.). The app uses modern Material 3 UI, Firebase notifications, Supabase (auth/storage/db), Cloudinary (media), and supports Android 7–15 (API 24–35).
 
 ---
-
-# 🚀 Fritemp Android Studio Source Code is Now Available!
-
-**Get the full source code for Fritemp, the template store app — built with Material 3, Sketchware Pro, and Android Studio!**
-
-👉 [**Click here to view the Android Studio branch**](https://github.com/FasterSoftwareDeveloper/Fritemp-Template-Store-App-Sketchware-Pro/tree/Android-studio)
-
-**Don't forget to ⭐ the repo if you find it helpful!**
-
----
-
 ## 🚀 Features
 
 ### User Panel Features
@@ -70,29 +59,6 @@
 
 ---
 
-## 🛠 Installation (Sketchware Pro)
-
-### **User Panel Libraries**
-- 📲 **Firebase Messaging** (v24.1.0)  
-- 🖼️ **Glide** (v4.15.1)  
-- 🎨 **Material Components** (v1.12.0)  
-- 🌐 **OkHttp3**  
-- 🧊 **Blurview** (v2.0.6)  
-- 🧑‍💻 **Peek and Pop** (v1.1.0)  
-- 🎮 **Unity Kotlin JVM** (v1432)  
-- 🖼️ **Splash Screen API** (v1.0.1)  
-- 🌀 **OverScroll Decor** (v1.1.1)  
-- 🎮 **Unity Ads** (v4.14)  
-- 🎮 **Unity Ads SCAR**  
-- 📄 **ViewPager2**  
-
-### **Admin Panel Libraries**
-- 📲 **Firebase Messaging** (v24.1.0)  
-- 🖼️ **Glide** (v4.15.1)  
-- 🎨 **Material Components** (v1.12.0)  
-- 🌐 **OkHttp3**  
-- 🎨 **Transition** (v1.4.1)
-
 ## Supported Template Types
 
 | Extension    | Type / Software               |
@@ -132,26 +98,6 @@
 - [Firebase Console](https://console.firebase.google.com): For push notifications (REST API)
 
 ---
-
-## ⚡ Getting Started
-
-1. **Download Sketchware Pro**  
-   [Join Telegram](https://t.me/sketchwarepro/257833) or [visit GitHub]([https://github.com/sketchware-pro](https://nightly.link/Sketchware-Pro/Sketchware-Pro/workflows/android/main/apk-release))
-
-2. **Import the Project**  
-   - Use `.swb` backup  
-   - Import from "Restore" in Sketchware Pro
-
-3. **Required Custom Libraries**  
-   - OkHttp3  
-   - Glide  
-   - Firebase (REST API only for notifications)  
-   - Supabase (via REST blocks)
-
-4. **Cloud Setup**  
-   - [Supabase](https://supabase.com): Setup Auth, Storage, and Realtime DB  
-   - [Cloudinary](https://cloudinary.com): Setup for template media hosting  
-   - [Firebase](https://firebase.google.com): Set up Firebase Messaging for push notifications  
 
 5. **Permissions & API Requirements**  
    - **Internet** only  
